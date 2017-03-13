@@ -1,0 +1,23 @@
+{
+  "name": "git-workflow",
+  "version": "0.0.0",
+  "description": "An automated workflow for testing Git branches",
+  "main": "index.js",
+  "dependencies": {
+    "node-git": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcarl/git-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcarl/git-workflow/issues"
+  },
+  "homepage": "https://github.com/vcarl/git-workflow#readme"
+}
