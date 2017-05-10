@@ -4,6 +4,7 @@
   "description": "An automated workflow for testing Git branches",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.16.1",
     "node-git": "^0.0.0"
   },
   "devDependencies": {},
