@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/vcarl/git-workflow/issues"
   },
-  "homepage": "https://github.com/vcarl/git-workflow#readme"
+  "homepage": "https://github.com/vcarl/git-workflow#readme",
+  "exclude": ["thing1", "thing2"]
 }

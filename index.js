@@ -5,11 +5,13 @@ const buildScriptsDir = __dirname;
 const repoDir = path.join(buildScriptsDir, '.');
 
 // TODO: DON'T COMMIT THIS TOKEN
-const ghToken = '(not committed)';
+const ghToken = '9fc5c1f175c4bedc1f4d29a88cd9e1c3094914d6';
+
+const testBranch = 'qa';
 
 function checkoutUAT(repository) {
   console.log('Checking out uat branch...');
-  return repository.checkoutBranch('uat');
+  return repository.checkoutBranch(testBranch);
 }
 
 function getMasterHead(repository) {
